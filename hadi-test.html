@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .my-link-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            #my-link {         
+                text-align: center;
+                width: 200px;
+                height: 100px;
+                line-height: 100px;
+                padding: 0px 20px 0px 20px;
+                font-family: tahoma;
+                font-size: 2rem;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: rgba(255, 0, 0, 0.862);
+                color: yellow;
+                border: 2px solid yellow;
+                border-radius: 0px;
+                &:hover {
+                    border-color: red;
+                    background-color: yellow;
+                    color: red;
+                    border-radius: 15px;
+                    transition: all ease 0.3s;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="my-link-container">
+        <a id="my-link" href="https//:www.google.com" target="_blank">Click Me !</a>
+    </div>
+</body>
+
+</html>
